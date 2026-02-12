@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#image {
+  height: 300px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #eee;
+  border: 3px solid black;
+  background-size: cover;
+  background-position: center;
+  line-height: 300px;
+  font-size: 20px;
+}
+
+.gallery img {
+  margin: 10px;
+  border: 2px solid black;
+  padding: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.gallery img:hover,
+.gallery img:focus {
+  transform: scale(1.05);
+  transition: 0.3s;
+}

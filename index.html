@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Accessible Photo Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="addTabIndex()">
+
+<h1>Accessible Interactive Photo Gallery</h1>
+
+<div id="image">
+Hover or focus on an image below to display here.
+</div>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/200/150?1" alt="Mountain landscape"
+onmouseover="upDate(this)"
+onmouseleave="undo()"
+onfocus="upDate(this)"
+onblur="undo()">
+
+<img src="https://picsum.photos/200/150?2" alt="Forest trail"
+onmouseover="upDate(this)"
+onmouseleave="undo()"
+onfocus="upDate(this)"
+onblur="undo()">
+
+<img src="https://picsum.photos/200/150?3" alt="Ocean coast"
+onmouseover="upDate(this)"
+onmouseleave="undo()"
+onfocus="upDate(this)"
+onblur="undo()">
+
+<img src="https://picsum.photos/200/150?4" alt="City skyline"
+onmouseover="upDate(this)"
+onmouseleave="undo()"
+onfocus="upDate(this)"
+onblur="undo()">
+
+<img src="https://picsum.photos/200/150?5" alt="Desert road"
+onmouseover="upDate(this)"
+onmouseleave="undo()"
+onfocus="upDate(this)"
+onblur="undo()">
+
+<img src="https://picsum.photos/200/150?6" alt="Snow landscape"
+onmouseover="upDate(this)"
+onmouseleave="undo()"
+onfocus="upDate(this)"
+onblur="undo()">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
